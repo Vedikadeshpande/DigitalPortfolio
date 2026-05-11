@@ -50,7 +50,7 @@ const Projects = () => {
             Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Work</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl">
-            I have made 3 projects, all are live and deployed! Continuosly working on new projects.
+            I have made 3 projects. 2 of them are live and the 3rd one is in progress. I love working on new projects!
           </p>
         </div>
 
