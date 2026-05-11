@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-background: #050505;
+  --color-surface: #111111;
+  --color-surface-light: #1a1a1a;
+  --color-primary: #a855f7;
+  --color-accent: #3b82f6;
+
+  --background-image-hero-gradient: linear-gradient(to right bottom, #050505, #111111);
+}
+
+@layer base {
+  * {
+    cursor: none !important;
+  }
+  body {
+    @apply bg-background text-gray-200 antialiased overflow-x-hidden;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  .glass-card {
+    @apply bg-surface/50 backdrop-blur-lg border border-white/5 rounded-2xl shadow-xl;
+  }
+  .text-glow {
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #a855f7;
+  }
+}
+
+/* Global scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
