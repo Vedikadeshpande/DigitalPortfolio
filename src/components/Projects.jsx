@@ -14,7 +14,7 @@ const projectsData = [
     tech: ["Python", "NLP", "Streamlit", "Scikit-Learn"],
     color: "from-primary/40 to-black",
     liveUrl: "https://groovein.streamlit.app/",
-    sourceUrl: "https://github.com/VedikaDeshpande/groovein" 
+    sourceUrl: "https://github.com/Vedikadeshpande/GrooveIn" 
   },
   {
     id: 2,
@@ -24,17 +24,17 @@ const projectsData = [
     tech: ["React", "GenAI", "Groq API", "Vercel", "Render", "TailwindCSS"],
     color: "from-accent/40 to-black",
     liveUrl: "https://cloutware-kappa.vercel.app/",
-    sourceUrl: "https://github.com/VedikaDeshpande/cloutware"
+    sourceUrl: "https://github.com/Vedikadeshpande/Cloutware"
   },
   {
     id: 3,
-    title: "Academic OS (in progress)",
+    title: "Academic OS",
     description: "An AI-powered learning ecosystem that turns your scattered study materials into an intelligent, interactive academic assistant.",
     details: "Centralizes PDFs, notes, and past papers into a unified workspace with RAG-based context-aware retrieval. Features a PYQ analyzer for exam trend detection, automated quiz and flashcard generation, mock exam generator using Bloom's Taxonomy, a personalized study planner, and a performance analytics dashboard.",
     tech: ["Python","FastAPI", "React.js", "RAG", "NLP", "LLMs", "Vector Embeddings", "TailwindCSS", "Framer Motion"],
     color: "from-purple-500/40 to-black",
-    liveUrl: "https://your-deployed-academicos-link.com",
-    sourceUrl: "https://github.com/VedikaDeshpande/academicos"
+    liveUrl: "https://academic-os-eta.vercel.app/",
+    sourceUrl: "https://github.com/Vedikadeshpande/AcademicOS"
   }
 ];
 
