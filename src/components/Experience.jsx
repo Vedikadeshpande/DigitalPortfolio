@@ -8,6 +8,7 @@ const experiences = [
     company: "TechIdeate, Annual Tech Fest of Manipal University Jaipur",
     period: "2026",
     desc: "One of five core Executive Committee members responsible for developing and managing the official website for TechIdeate, the annual tech fest of Manipal University Jaipur. Built a scalable and accessible platform for event registrations, information, and query management for students across multiple colleges."
+  },
   {
     role: "Convenor, Manipal Innovation Hackathon 2026",
     company: "E-Cell, Manipal University Jaipur",
