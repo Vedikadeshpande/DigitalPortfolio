@@ -82,7 +82,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
             className="text-base md:text-lg font-mono text-[#3b82f6] tracking-widest uppercase"
           >
-            AI/ML Enthusiast &nbsp;·&nbsp; 4th Year Student
+            AI/ML Enthusiast &nbsp;·&nbsp; 3rd Year Student
           </motion.p>
 
           {/* Tagline */}
@@ -153,7 +153,7 @@ const Hero = () => {
             {/* Name label at bottom */}
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <p className="text-white font-bold text-xl tracking-tight">Vedika</p>
-              <p className="text-[#a855f7] text-sm font-mono mt-0.5">AI/ML Enthusiast · 4th Year Student</p>
+              <p className="text-[#a855f7] text-sm font-mono mt-0.5">AI/ML Enthusiast · 3rd Year Student</p>
             </div>
           </motion.div>
 
